@@ -58,8 +58,3 @@ export const deleteNote = async (noteId: string): Promise<Note> => {
 
   return data;
 };
-
-console.log('=== DEBUG NOTE SERVICE ===');
-console.log('Token:', import.meta.env.VITE_NOTEHUB_TOKEN);
-console.log('Token length:', import.meta.env.VITE_NOTEHUB_TOKEN?.length);
-console.log('Base URL:', "https://notehub-public.goit.study/api/notes");
